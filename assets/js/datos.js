@@ -53,7 +53,6 @@ window.PROYECTO = {
     { version: "0.1", fecha: "", responsable: "PM", detalle: "Versión inicial: objetivo, alcance, equipo y roles a partir de la propuesta ejecutiva." },
     { version: "0.2", fecha: "", responsable: "Equipo", detalle: "Carta Gantt y plan de sprints. Selección del nodo asignado y primer BOM." },
     { version: "0.3", fecha: "", responsable: "Infraestructura", detalle: "Diagrama de servicios del servidor y matriz de riesgos inicial." }
-    { version: "0.4", fecha: "", responsable: "Infraestructura", detalle: "Diagrama de servicios del servidor y matriz de riesgos inicial." }
   ],
 
   // --- Carta Gantt: fechas en formato AAAA-MM-DD ---
