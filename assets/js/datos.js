@@ -8,14 +8,14 @@ window.PROYECTO = {
   //     Campus Sense, Escuela Inteligente, Nodo Escolar, EduSense u otro) ---
   nombre: "Smart Campus IoT",
   bajada: "Sistema distribuido de monitoreo ambiental, energético y operativo para la escuela",
-  equipo: "Equipo 1",                 // nombre del equipo
+  equipo: "Equipo 7",                 // nombre del equipo
   curso: "6to Informática · División A",
   institucion: "Instituto Leonardo Murialdo",
   ciclo: "2026",
 
   // Nodo que construye este equipo (uno de: luz, presencia, aire, ruido,
   // consumo, suelo, red). Define qué sensor específico se destaca.
-  nodoAsignado: "aire",
+  nodoAsignado: "Dashboard",
 
   // --- Acceso al proyecto ---
   // previewUrl: dirección pública del dashboard (GitHub Pages, Netlify, Grafana
@@ -31,20 +31,20 @@ window.PROYECTO = {
   // rol: "pm" | "desarrollo" | "aplicaciones" | "infraestructura"
   // foto: ruta a una imagen (ej. "assets/img/integrantes/ana.jpg") o "" para iniciales
   integrantes: [
-    { nombre: "Apellido, Nombre", rol: "pm", foto: "", github: "" },
-    { nombre: "Apellido, Nombre", rol: "desarrollo", foto: "", github: "" },
-    { nombre: "Apellido, Nombre", rol: "aplicaciones", foto: "", github: "" },
-    { nombre: "Apellido, Nombre", rol: "infraestructura", foto: "", github: "" }
+    { nombre: "Sorroche, Jere", rol: "pm", foto: "", github: "" },
+    { nombre: "Feliciano, Valentin", rol: "desarrollo", foto: "", github: "" },
+    { nombre: "Elizalde, David", rol: "aplicaciones", foto: "", github: "" },
+    { nombre: "Toia, Dominic", rol: "infraestructura", foto: "", github: "" }
   ],
 
   // --- Docentes (el auditor recibe los reportes del Project Manager) ---
   docentes: [
-    { asignatura: "Laboratorio de Hardware", nombre: "A completar" },
-    { asignatura: "Laboratorio de Sistemas Operativos", nombre: "A completar" },
-    { asignatura: "Laboratorio de Aplicaciones", nombre: "A completar" },
-    { asignatura: "Desarrollo de Software", nombre: "A completar" },
-    { asignatura: "Investigación Operativa", nombre: "A completar" },
-    { asignatura: "Seguridad Informática", nombre: "A completar" }
+    { asignatura: "Laboratorio de Hardware", nombre: "Werner, Gustavo" },
+    { asignatura: "Laboratorio de Sistemas Operativos", nombre: "Martini, Diego" },
+    { asignatura: "Laboratorio de Aplicaciones", nombre: "De Donato, Marcelo" },
+    { asignatura: "Laboratorio de Programacion", nombre: "Barral, Martin" },
+    { asignatura: "Investigación Operativa", nombre: "Santisi, Gabriel" },
+    { asignatura: "Seguridad Informática", nombre: "Pedaci, Lourdes" }
   ],
   auditor: "A completar",
 
@@ -116,7 +116,7 @@ window.PROYECTO = {
   // --- Presupuesto / BOM: precios en pesos argentinos (completar) ---
   bom: [
     { item: "ESP32 mini (D1 Mini ESP32)", cant: 1, unit: 0 },
-    { item: "Sensor DHT22 (temperatura + humedad)", cant: 1, unit: 0 },
+    { item: "Sensor DHT11 (temperatura + humedad)", cant: 1, unit: 0 },
     { item: "Display LCD 16x2 con módulo I2C", cant: 1, unit: 0 },
     { item: "Sensor específico del nodo", cant: 1, unit: 0 },
     { item: "Batería 12 V 1,3 Ah (respaldo)", cant: 1, unit: 0 },
@@ -127,7 +127,7 @@ window.PROYECTO = {
 
   // --- Bitácora de pruebas: una fila por prueba ---
   pruebas: [
-    { fecha: "", prueba: "Lectura del DHT22 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "pendiente" },
+    { fecha: "", prueba: "Lectura del DHT11 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "pendiente" },
     { fecha: "", prueba: "Publicación MQTT al broker", esperado: "Mensaje visible con mosquitto_sub", resultado: "", estado: "pendiente" },
     { fecha: "", prueba: "Corte de WiFi durante 2 minutos", esperado: "El nodo se reconecta solo", resultado: "", estado: "pendiente" },
     { fecha: "", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "pendiente" }
