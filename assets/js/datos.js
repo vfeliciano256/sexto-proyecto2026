@@ -52,8 +52,12 @@ window.PROYECTO = {
   cambios: [
     { version: "0.1", fecha: "19-6", responsable: "Desarrollador", detalle: "Compra de los componentes esenciales (DHT11, ESP32, LCD 16x2 y cables)" },
     { version: "0.2", fecha: "18-8", responsable: "Equipo", detalle: "Compra de los demas componentes (Placa universal, borneras, step-down converter)" },
-    { version: "1.0", fecha: "20-8", responsable: "Infraestructura", detalle: "Primeros modelos de la pagina del DashBoard" },
-    { version: "1.1", fecha: "24-9", responsable: "Desarrollador", detalle: "Se prueban las primeras versiones del codigo del ESP32" }
+    { version: "1.0", fecha: "20-8", responsable: "Infraestructura", detalle: "Primeros modelos de la pagina del dashboard" },
+    { version: "1.1", fecha: "24-9", responsable: "Desarrollador", detalle: "Se prueban las primeras versiones del codigo del ESP32" },
+    { version: "1.2", fecha: "25-9", responsable: "Desarrollador", detalle: "Creacion para medir localmente la temperatura y humedad con el DHT11" },
+    { version: "1.3", fecha: "29-9", responsable: "Desarrollador, Aplicaciones y PM", detalle: "Soldadura al DHT11 y borneras en la placa universal" },
+    { version: "2.0", fecha: "18-10", responsable: "Infraestructura", detalle: "Conexion de la pagina al broker MQTT" },
+    { version: "2.1", fecha: "19-10", responsable: "Desarrollador", detalle: "Conexion y envio de datos del ESP32, al broker y al dashboard" }
   ],
 
   // --- Carta Gantt: fechas en formato AAAA-MM-DD ---
