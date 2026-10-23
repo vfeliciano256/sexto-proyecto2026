@@ -8,7 +8,7 @@ window.PROYECTO = {
   //     Campus Sense, Escuela Inteligente, Nodo Escolar, EduSense u otro) ---
   nombre: "Smart Campus IoT",
   bajada: "Sistema distribuido de monitoreo ambiental, energético y operativo para la escuela",
-  equipo: "Equipo 7",                 // nombre del equipo
+  equipo: "Equipo 67",                 // nombre del equipo
   curso: "6to Informática · División A",
   institucion: "Instituto Leonardo Murialdo",
   ciclo: "2026",
