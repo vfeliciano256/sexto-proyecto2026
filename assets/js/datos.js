@@ -57,7 +57,8 @@ window.PROYECTO = {
     { version: "1.2", fecha: "25-9", responsable: "Desarrollador", detalle: "Creacion para medir localmente la temperatura y humedad con el DHT11" },
     { version: "1.3", fecha: "29-9", responsable: "Desarrollador, Aplicaciones y PM", detalle: "Soldadura al DHT11 y borneras en la placa universal" },
     { version: "2.0", fecha: "18-10", responsable: "Infraestructura", detalle: "Conexion de la pagina al broker MQTT" },
-    { version: "2.1", fecha: "19-10", responsable: "Desarrollador", detalle: "Conexion y envio de datos del ESP32, al broker y al dashboard" }
+    { version: "2.1", fecha: "19-10", responsable: "Desarrollador", detalle: "Conexion y envio de datos del ESP32, al broker y al dashboard" },
+    { version: "2.2", fecha: "23-10", responsable: "Infraestructura", detalle: "La pagina fue publicada, y se ve bien y funciona en celular" }
   ],
 
   // --- Carta Gantt: fechas en formato AAAA-MM-DD ---
@@ -120,13 +121,15 @@ window.PROYECTO = {
 
   // --- Presupuesto / BOM: precios en pesos argentinos (completar) ---
   bom: [
-    { item: "ESP32 mini (D1 Mini ESP32)", cant: 1, unit: 0 },
+    { item: "ESP32 C3 supermini v1601", cant: 1, unit: 0 },
     { item: "Sensor DHT11 (temperatura + humedad)", cant: 1, unit: 0 },
     { item: "Display LCD 16x2 con módulo I2C", cant: 1, unit: 0 },
-    { item: "Sensor específico del nodo", cant: 1, unit: 0 },
+    { item: "Step-down converter", cant: 1, unit: 0 },
+    { item: "Placa universal", cant: 1, unit: 0 },
     { item: "Batería 12 V 1,3 Ah (respaldo)", cant: 1, unit: 0 },
-    { item: "Fuente 12 V + regulador step-down LM2596", cant: 1, unit: 0 },
-    { item: "Placa perforada + borneras + cables", cant: 1, unit: 0 },
+    { item: "Placa perforada", cant: 1, unit: 0 },
+    { item: "Borneras", cant: 1, unit: 0 },
+    { item: "Cables", cant: 1, unit: 0 },
     { item: "Gabinete plástico 120 × 80 × 55 mm", cant: 1, unit: 0 }
   ],
 
