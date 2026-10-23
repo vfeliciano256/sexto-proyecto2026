@@ -8,7 +8,7 @@ window.PROYECTO = {
   //     Campus Sense, Escuela Inteligente, Nodo Escolar, EduSense u otro) ---
   nombre: "Smart Campus IoT",
   bajada: "Sistema distribuido de monitoreo ambiental, energético y operativo para la escuela",
-  equipo: "Equipo 67",                 // nombre del equipo
+  equipo: "Equipo 7",                 // nombre del equipo
   curso: "6to Informática · División A",
   institucion: "Instituto Leonardo Murialdo",
   ciclo: "2026",
@@ -50,10 +50,10 @@ window.PROYECTO = {
 
   // --- Control de cambios: agreguen una fila por cada cambio de alcance ---
   cambios: [
-    { version: "0.1", fecha: "", responsable: "PM", detalle: "Versión inicial: objetivo, alcance, equipo y roles a partir de la propuesta ejecutiva." },
-    { version: "0.2", fecha: "", responsable: "Equipo", detalle: "Carta Gantt y plan de sprints. Selección del nodo asignado y primer BOM." },
-    { version: "0.3", fecha: "", responsable: "Infraestructura", detalle: "Diagrama de servicios del servidor y matriz de riesgos inicial." },
-    { version: "0.4", fecha: "", responsable: "tumadre", detalle: "Carta Gantt y plan de sprints. Selección del nodo asignado y primer BOM." }
+    { version: "0.1", fecha: "19-6", responsable: "Desarrollador", detalle: "Compra de los componentes esenciales (DHT11, ESP32, LCD 16x2 y cables)" },
+    { version: "0.2", fecha: "18-8", responsable: "Equipo", detalle: "Compra de los demas componentes (Placa universal, borneras, step-down converter)" },
+    { version: "1.0", fecha: "20-8", responsable: "Infraestructura", detalle: "Primeros modelos de la pagina del DashBoard" },
+    { version: "1.1", fecha: "24-9", responsable: "Desarrollador", detalle: "Se prueban las primeras versiones del codigo del ESP32" }
   ],
 
   // --- Carta Gantt: fechas en formato AAAA-MM-DD ---
