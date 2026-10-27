@@ -31,10 +31,10 @@ window.PROYECTO = {
   // rol: "pm" | "desarrollo" | "aplicaciones" | "infraestructura"
   // foto: ruta a una imagen (ej. "assets/img/integrantes/ana.jpg") o "" para iniciales
   integrantes: [
-    { nombre: "Sorroche, Jere", rol: "pm", foto: "assets/img/integrantes/scoobyjew.jpg", github: "" },
-    { nombre: "Feliciano, Valentin", rol: "desarrollo", foto: "", github: "" },
-    { nombre: "Elizalde, David", rol: "aplicaciones", foto: "", github: "" },
-    { nombre: "Toia, Dominic", rol: "infraestructura", foto: "", github: "" }
+    { nombre: "Sorroche, Jere", rol: "pm", foto: "assets/img/integrantes/jere.jpg", github: "" },
+    { nombre: "Feliciano, Valentin", rol: "desarrollo", foto: "assets/img/integrantes/valem.jpg", github: "" },
+    { nombre: "Elizalde, David", rol: "aplicaciones", foto: "assets/img/integrantes/dvd.jpg", github: "" },
+    { nombre: "Toia, Dominic", rol: "infraestructura", foto: "assets/img/integrantes/toia.jpg", github: "" }
   ],
 
   // --- Docentes (el auditor recibe los reportes del Project Manager) ---
