@@ -121,16 +121,13 @@ window.PROYECTO = {
 
   // --- Presupuesto / BOM: precios en pesos argentinos (completar) ---
   bom: [
-    { item: "ESP32 C3 supermini v1601", cant: 1, unit: 0 },
-    { item: "Sensor DHT11 (temperatura + humedad)", cant: 1, unit: 0 },
-    { item: "Display LCD 16x2 con módulo I2C", cant: 1, unit: 0 },
-    { item: "Step-down converter", cant: 1, unit: 0 },
-    { item: "Placa universal", cant: 1, unit: 0 },
-    { item: "Batería 12 V 1,3 Ah (respaldo)", cant: 1, unit: 0 },
-    { item: "Placa perforada", cant: 1, unit: 0 },
-    { item: "Borneras", cant: 1, unit: 0 },
-    { item: "Cables", cant: 1, unit: 0 },
-    { item: "Gabinete plástico 120 × 80 × 55 mm", cant: 1, unit: 0 }
+    { item: "ESP32 C3 supermini v1601", cant: 1, unit: 8000 },
+    { item: "Sensor DHT11 (temperatura + humedad)", cant: 1, unit: 3640 },
+    { item: "Display LCD 16x2 con módulo I2C", cant: 1, unit: 8000 },
+    { item: "Step-down converter", cant: 1, unit: 20000 },
+    { item: "Placa universal", cant: 1, unit: 3500 },
+    { item: "Borneras", cant: 4, unit: 1592 },
+    { item: "Cables", cant: 15, unit: 3276 }
   ],
 
   // --- Bitácora de pruebas: una fila por prueba ---
