@@ -127,6 +127,7 @@ window.PROYECTO = {
     { item: "Step-down converter", cant: 1, unit: 20000 },
     { item: "Placa universal", cant: 1, unit: 3500 },
     { item: "Borneras", cant: 4, unit: 1592 },
+    { item: "Lm7805", cant: 1, unit: 1995 },
     { item: "Cables", cant: 15, unit: 218.4 }
   ],
 
