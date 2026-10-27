@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img"><title>Batería 12 V</title>
-<rect x="62" y="24" width="20" height="14" fill="#d9483b"/><rect x="158" y="24" width="20" height="14" fill="#555"/>
-<rect x="40" y="36" width="160" height="106" rx="6" fill="#2a2d33"/><rect x="40" y="36" width="160" height="22" rx="6" fill="#3a3e46"/>
-<text x="72" y="53" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#fff">+</text><text x="168" y="53" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#fff">−</text>
-<text x="120" y="98" font-family="sans-serif" font-weight="700" font-size="26" text-anchor="middle" fill="#f2f2f2">12V</text>
-<text x="120" y="120" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#b5bac2">1.3Ah · SLA</text></svg>
