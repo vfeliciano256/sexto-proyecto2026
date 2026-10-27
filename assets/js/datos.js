@@ -127,7 +127,7 @@ window.PROYECTO = {
     { item: "Step-down converter", cant: 1, unit: 20000 },
     { item: "Placa universal", cant: 1, unit: 3500 },
     { item: "Borneras", cant: 4, unit: 1592 },
-    { item: "Cables", cant: 15, unit: 3276 }
+    { item: "Cables", cant: 15, unit: 218.4 }
   ],
 
   // --- Bitácora de pruebas: una fila por prueba ---
