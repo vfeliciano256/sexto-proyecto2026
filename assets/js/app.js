@@ -212,7 +212,7 @@
   const card = (c) => {
     const mine = c.nodo && c.nodo === P.nodoAsignado;
     return `<article class="card comp${mine ? " destacado" : ""}">
-      <figure><img src="assets/img/componentes/${c.img}.svg" alt="Ilustración: ${esc(c.nombre)}" width="240" height="160" loading="lazy"></figure>
+      <figure><img src="assets/img/componentes/${c.img}.png" alt="Ilustración: ${esc(c.nombre)}" width="240" height="160" loading="lazy"></figure>
       <div class="body">${mine ? '<span class="badge-asignado">Sensor de este equipo</span>' : ""}
         ${c.nodo ? `<span class="tag a-hardware" style="margin-bottom:6px">${esc(NODOS[c.nodo].nombre.replace(/ \(.*\)/, ""))}</span>` : ""}
         <h3>${esc(c.nombre)}</h3><p>${esc(c.uso)}</p>
