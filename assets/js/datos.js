@@ -133,9 +133,9 @@ window.PROYECTO = {
 
   // --- Bitácora de pruebas: una fila por prueba ---
   pruebas: [
-    { fecha: "", prueba: "Lectura del DHT11 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "pendiente" },
-    { fecha: "", prueba: "Publicación MQTT al broker", esperado: "Mensaje visible con mosquitto_sub", resultado: "", estado: "pendiente" },
-    { fecha: "", prueba: "Corte de WiFi durante 2 minutos", esperado: "El nodo se reconecta solo", resultado: "", estado: "pendiente" },
-    { fecha: "", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "pendiente" }
+    { fecha: "", prueba: "Lectura del DHT11 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "ok" },
+    { fecha: "", prueba: "Publicación MQTT al broker", esperado: "Mensaje visible con mosquitto_sub", resultado: "", estado: "ok" },
+    { fecha: "", prueba: "Corte de WiFi durante 2 minutos", esperado: "El nodo se reconecta solo", resultado: "", estado: "ok" },
+    { fecha: "", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "ok" }
   ]
 };
