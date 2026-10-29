@@ -57,8 +57,8 @@ window.PROYECTO = {
     { version: "1.2", fecha: "25-9", responsable: "Desarrollador", detalle: "Creacion para medir localmente la temperatura y humedad con el DHT11" },
     { version: "1.3", fecha: "29-9", responsable: "Desarrollador, Aplicaciones y PM", detalle: "Soldadura al DHT11 y borneras en la placa universal" },
     { version: "2.0", fecha: "18-10", responsable: "Infraestructura", detalle: "Conexion de la pagina al broker MQTT" },
-    { version: "2.1", fecha: "19-10", responsable: "Desarrollador", detalle: "Conexion y envio de datos del ESP32, al broker y al dashboard" },
-    { version: "2.2", fecha: "23-10", responsable: "Infraestructura", detalle: "La pagina fue publicada, y se ve bien y funciona en celular" }
+    { version: "2.1", fecha: "22-10", responsable: "Desarrollador", detalle: "Conexion y envio de datos del ESP32, al broker y al dashboard" },
+    { version: "2.2", fecha: "24-10", responsable: "Infraestructura", detalle: "La pagina fue publicada, y se ve bien y funciona en celular" }
   ],
 
   // --- Carta Gantt: fechas en formato AAAA-MM-DD ---
@@ -133,9 +133,9 @@ window.PROYECTO = {
 
   // --- Bitácora de pruebas: una fila por prueba ---
   pruebas: [
-    { fecha: "", prueba: "Lectura del DHT11 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "ok" },
-    { fecha: "", prueba: "Publicación MQTT al broker", esperado: "Mensaje visible con mosquitto_sub", resultado: "", estado: "ok" },
-    { fecha: "", prueba: "Corte de WiFi durante 2 minutos", esperado: "El nodo se reconecta solo", resultado: "", estado: "ok" },
-    { fecha: "", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "ok" }
+    { fecha: "24-9", prueba: "Lectura del DHT11 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "ok" },
+    { fecha: "22-10", prueba: "Publicación MQTT al broker", esperado: "Mensaje visible con mosquitto_sub", resultado: "", estado: "ok" },
+    { fecha: "22-10", prueba: "Corte de WiFi durante 2 minutos", esperado: "El nodo se reconecta solo", resultado: "", estado: "ok" },
+    { fecha: "24-10", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "ok" }
   ]
 };
