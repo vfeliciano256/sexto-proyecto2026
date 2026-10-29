@@ -40,7 +40,7 @@
 
   const COMPONENTES = [
     { img: "esp32-mini", nombre: "ESP32 mini", base: true, uso: "Microcontrolador con WiFi y Bluetooth: lee los sensores y envía los datos.", datos: [["Tensión", "3,3 V (VIN 5 V)"], ["Red", "WiFi 2,4 GHz"], ["ADC", "12 bits"]] },
-    { img: "dht22", nombre: "DHT22 (AM2302)", base: true, uso: "Mide temperatura y humedad relativa. Lo llevan todos los nodos.", datos: [["Rango", "−40 a 80 °C · 0–100 %"], ["Precisión", "±0,5 °C · ±2 %"], ["Interfaz", "Digital 1 cable"]] },
+    { img: "dht22", nombre: "DHT11", base: true, uso: "Mide temperatura y humedad relativa. Lo llevan todos los nodos.", datos: [["Rango", "−40 a 80 °C · 0–100 %"], ["Precisión", "±0,5 °C · ±2 %"], ["Interfaz", "Digital 1 cable"]] },
     { img: "lcd-16x2", nombre: "Display LCD 16x2 I2C", base: true, uso: "Muestra los valores en el propio nodo, sin depender del dashboard.", datos: [["Interfaz", "I2C (2 cables)"], ["Dirección", "0x27 / 0x3F"], ["Tensión", "5 V"]] },
     { img: "bateria-12v", nombre: "Batería 12 V", base: true, uso: "Respaldo de energía: el nodo sigue midiendo si se corta la luz.", datos: [["Tipo", "Plomo-ácido sellada"], ["Capacidad", "1,3 Ah (orientativo)"]] },
     { img: "fuente-lm2596", nombre: "Fuente + regulador LM2596", base: true, uso: "Baja los 12 V a 5 V estables para el ESP32 y los sensores.", datos: [["Entrada", "4,5 – 40 V"], ["Salida", "Ajustable, 5 V"], ["Corriente", "hasta 2 A"]] },
