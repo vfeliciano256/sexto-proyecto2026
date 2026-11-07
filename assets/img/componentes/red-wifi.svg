@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img"><title>Monitoreo de red</title>
-<g fill="none" stroke="#2f8fd8" stroke-width="10" stroke-linecap="round">
-<path d="M60 76 a84 84 0 0 1 120 0"/><path d="M80 96 a56 56 0 0 1 80 0"/><path d="M100 116 a28 28 0 0 1 40 0"/></g>
-<circle cx="120" cy="132" r="9" fill="#2f8fd8"/>
-<text x="196" y="40" font-family="monospace" font-size="14" text-anchor="middle" fill="#1f9d55">23 ms</text></svg>
