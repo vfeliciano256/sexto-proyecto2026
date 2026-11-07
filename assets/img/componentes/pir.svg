@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img"><title>Sensor PIR HC-SR501</title>
-<rect x="44" y="78" width="152" height="66" rx="4" fill="#2f7d3b"/>
-<path d="M60 82 a60 60 0 0 1 120 0 z" fill="#f4f4f1" stroke="#d6d6d0" stroke-width="2"/>
-<path d="M72 82 a13 13 0 0 1 26 0" fill="none" stroke="#dcdcd5" stroke-width="2"/><path d="M98 82 a13 13 0 0 1 26 0" fill="none" stroke="#dcdcd5" stroke-width="2"/><path d="M124 82 a13 13 0 0 1 26 0" fill="none" stroke="#dcdcd5" stroke-width="2"/><path d="M150 82 a13 13 0 0 1 26 0" fill="none" stroke="#dcdcd5" stroke-width="2"/>
-<path d="M90 54 a30 30 0 0 1 60 0" fill="none" stroke="#dcdcd5" stroke-width="2"/>
-<circle cx="76" cy="124" r="7" fill="#e6c24a"/><circle cx="164" cy="124" r="7" fill="#e6c24a"/>
-<text x="120" y="128" font-family="monospace" font-size="9" text-anchor="middle" fill="#fff">HC-SR501</text></svg>
