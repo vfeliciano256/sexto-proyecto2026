@@ -58,7 +58,8 @@ window.PROYECTO = {
     { version: "1.3", fecha: "29-9", responsable: "Desarrollador, Aplicaciones y PM", detalle: "Soldadura al DHT11 y borneras en la placa universal" },
     { version: "2.0", fecha: "18-10", responsable: "Infraestructura", detalle: "Conexion de la pagina al broker MQTT" },
     { version: "2.1", fecha: "22-10", responsable: "Desarrollador", detalle: "Conexion y envio de datos del ESP32, al broker y al dashboard" },
-    { version: "2.2", fecha: "24-10", responsable: "Infraestructura", detalle: "La pagina fue publicada, y se ve bien y funciona en celular" }
+    { version: "2.2", fecha: "24-10", responsable: "Infraestructura", detalle: "La pagina fue publicada, y se ve bien y funciona en celular" },
+    { version: "2.3", fecha: "6-11", responsable: "Desarrollador y PM", detalle: "Todo esta soldado definitivamente a la placa universal" }
   ],
 
   // --- Carta Gantt: fechas en formato AAAA-MM-DD ---
@@ -138,6 +139,8 @@ window.PROYECTO = {
     { fecha: "24-9", prueba: "Lectura del DHT11 por monitor serie", esperado: "Valores estables cada 5 s", resultado: "", estado: "ok" },
     { fecha: "22-10", prueba: "Publicación MQTT al broker", esperado: "Mensaje visible con mosquitto_sub", resultado: "", estado: "ok" },
     { fecha: "22-10", prueba: "Corte de WiFi durante 2 minutos", esperado: "El nodo se reconecta solo", resultado: "", estado: "ok" },
-    { fecha: "24-10", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "ok" }
+    { fecha: "24-10", prueba: "Publicar sin usuario/contraseña", esperado: "El broker rechaza la conexión", resultado: "", estado: "ok" },
+    { fecha: "3-11", prueba: "Prender el ESP32 luego de soldar todo a la placa", esperado: "Prende sin ningun problema", resultado: "", estado: "ok" },
+    { fecha: "6-11", prueba: "Usar la bateria para alimentar el ESP32", esperado: "El ESP32 prende de manera estable", resultado: "", estado: "ok" },
   ]
 };
