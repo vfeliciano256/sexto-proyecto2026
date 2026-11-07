@@ -25,7 +25,7 @@ window.PROYECTO = {
 
   // Carta Gantt en Google Sheets: Archivo → Compartir → Publicar en la Web →
   // Insertar → copiar la dirección de src="…" (termina en /pubhtml?...)
-  ganttSheetUrl: "",
+  ganttSheetUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQaoBZWRHwC188mu1HUuxyL1qiMxSsUamCSQwIXvD7-hzK8dcM-fY-1yjqMOH3bkhsnlr8De9n5q5_g/pubhtml",
 
   // --- Integrantes ---
   // rol: "pm" | "desarrollo" | "aplicaciones" | "infraestructura"
