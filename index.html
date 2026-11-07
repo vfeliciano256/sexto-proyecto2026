@@ -544,13 +544,11 @@
   <div class="table-wrap"><table>
     <thead><tr><th>Componente</th><th>Pin del componente</th><th>Conexión</th><th>Notas</th></tr></thead>
     <tbody>
-      <tr><td>Fuente 12 V</td><td>+12 V / GND</td><td>Entrada del LM2596 y batería</td><td>Fusible de 1 A en la entrada</td></tr>
-      <tr><td>LM2596</td><td>OUT +5 V / GND</td><td>Pin 5V (VIN) y GND del ESP32</td><td>Ajustar a 5,0 V con el multímetro <b>antes</b> de conectar</td></tr>
-      <tr><td>DHT22</td><td>DATA</td><td>GPIO 4</td><td>Resistencia pull-up de 10 kΩ a 3,3 V</td></tr>
-      <tr><td>LCD 16x2 (I2C)</td><td>SDA / SCL</td><td>GPIO 21 / GPIO 22</td><td>Dirección I2C habitual: 0x27 o 0x3F</td></tr>
-      <tr><td>Sensor analógico (MQ-7, sonido, suelo, ACS712)</td><td>AO</td><td>GPIO 34 (ADC1)</td><td>Usar ADC1: el ADC2 no funciona con WiFi activo</td></tr>
-      <tr><td>Sensor digital (PIR)</td><td>OUT</td><td>GPIO 27</td><td>Salida de 3,3 V, compatible directo</td></tr>
-      <tr><td>BH1750 (I2C)</td><td>SDA / SCL</td><td>GPIO 21 / GPIO 22</td><td>Comparte el bus con el LCD (dirección 0x23)</td></tr>
+      <tr><td>Fuente 12 V</td><td>+12 V / GND</td><td>Entrada del LM2596 y batería</td><td>Conectados a las borneras</td></tr>
+      <tr><td>LM7805</td><td>OUT +5 V / GND</td><td>Pin 5V (VIN) y GND del ESP32</td><td>Alimentacion del ESP32 y de ahi a los demas componentes</td></tr>
+      <tr><td>DHT11</td><td>DATA</td><td>GPIO 3</td><td>Es un modulo de 4 pines pero el 3 no se usa (datos PIN 2)</td></tr>
+      <tr><td>LCD 16x2 (I2C)</td><td>SDA / SCL</td><td>GPIO 8 / GPIO 9</td><td>Dirección I2C habitual: 0x27 o 0x3F</td></tr>
+      <tr><td>BH1750 (I2C)</td><td>SDA / SCL</td><td>GPIO 8 / GPIO 9</td><td>Comparte el bus con el LCD (dirección 0x23)</td></tr>
     </tbody>
   </table></div>
   <div class="callout todo">
