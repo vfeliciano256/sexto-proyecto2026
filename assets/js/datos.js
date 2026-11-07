@@ -20,8 +20,8 @@ window.PROYECTO = {
   // --- Acceso al proyecto ---
   // previewUrl: dirección pública del dashboard (GitHub Pages, Netlify, Grafana
   // con acceso público, etc.). Mientras esté vacía se muestra el aviso "sin publicar".
-  previewUrl: "",
-  repoUrl: "",                        // repositorio del código (GitHub)
+  previewUrl: "http://proyecto2026.webhop.net:8085/",
+  repoUrl: "https://github.com/vfeliciano256/sexto-proyecto2026/tree/main",                        // repositorio del código (GitHub)
 
   // Carta Gantt en Google Sheets: Archivo → Compartir → Publicar en la Web →
   // Insertar → copiar la dirección de src="…" (termina en /pubhtml?...)
@@ -122,6 +122,7 @@ window.PROYECTO = {
   // --- Presupuesto / BOM: precios en pesos argentinos (completar) ---
   bom: [
     { item: "ESP32 C3 supermini v1601", cant: 1, unit: 8000 },
+    { item: "Sockets para ESP32", cant: 2, unit: 300 },
     { item: "Sensor DHT11 (temperatura + humedad)", cant: 1, unit: 3640 },
     { item: "Display LCD 16x2 con módulo I2C", cant: 1, unit: 8000 },
     { item: "Step-down converter", cant: 1, unit: 20000 },
