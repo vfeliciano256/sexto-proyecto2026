@@ -125,10 +125,11 @@ window.PROYECTO = {
     { item: "Sockets para ESP32", cant: 2, unit: 300 },
     { item: "Sensor DHT11 (temperatura + humedad)", cant: 1, unit: 3640 },
     { item: "Display LCD 16x2 con módulo I2C", cant: 1, unit: 8000 },
-    { item: "Step-down converter", cant: 1, unit: 20000 },
     { item: "Placa universal", cant: 1, unit: 3500 },
     { item: "Borneras", cant: 4, unit: 1592 },
     { item: "Lm7805", cant: 1, unit: 1995 },
+    { item: "Caja estanco 20x30x10", cant: 1, unit: 23500 },
+    { item: "Bateria 12v", cant: 1, unit: 20000 },
     { item: "Cables", cant: 15, unit: 218.4 }
   ],
 
